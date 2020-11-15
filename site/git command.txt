@@ -1,0 +1,249 @@
+
+C:\Users\ajcpa>git config -global user.name "ajcpa"
+error: did you mean `--global` (with two dashes)?
+
+C:\Users\ajcpa>git config -global user.name "ajcpa"
+error: did you mean `--global` (with two dashes)?
+
+C:\Users\ajcpa>git config --global user.name "ajcpa"
+
+C:\Users\ajcpa>cd ..
+
+C:\Users>cd
+C:\Users
+
+C:\Users>cd .
+
+C:\Users>cd .
+
+C:\Users>\ajcpa
+'\ajcpa' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>cd git checkout gh pages
+The system cannot find the path specified.
+
+C:\Users>git checkout gh-pages
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users>git colone https://github.com/ajcpa/coursera-test.git
+git: 'colone' is not a git command. See 'git --help'.
+
+The most similar command is
+        clone
+
+C:\Users>git clone https://github.com/ajcpa/coursera-test.git
+fatal: could not create work tree dir 'coursera-test': Permission denied
+
+C:\Users>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2299-664A
+
+ Directory of C:\Users
+
+05/17/2020  06:56 PM    <DIR>          .
+05/17/2020  06:56 PM    <DIR>          ..
+11/13/2020  09:47 AM    <DIR>          ajcpa
+04/15/2019  07:39 AM    <DIR>          Public
+               0 File(s)              0 bytes
+               4 Dir(s)  174,701,142,016 bytes free
+
+C:\Users>cd ajcpa
+
+C:\Users\ajcpa>cd
+C:\Users\ajcpa
+
+C:\Users\ajcpa>cd
+C:\Users\ajcpa
+
+C:\Users\ajcpa>cd index
+The system cannot find the path specified.
+
+C:\Users\ajcpa>cd ..
+
+C:\Users>cd
+C:\Users
+
+C:\Users>cd ajcpa
+
+C:\Users\ajcpa>cd coursera-test
+
+C:\Users\ajcpa\coursera-test>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2299-664A
+
+ Directory of C:\Users\ajcpa\coursera-test
+
+11/11/2020  08:17 PM    <DIR>          .
+11/11/2020  08:17 PM    <DIR>          ..
+11/11/2020  08:07 PM             1,311 index.md
+11/12/2020  08:37 PM    <DIR>          site
+11/11/2020  08:07 PM                32 _config.yml
+               2 File(s)          1,343 bytes
+               3 Dir(s)  174,697,590,784 bytes free
+
+C:\Users\ajcpa\coursera-test>git add .
+
+C:\Users\ajcpa\coursera-test>git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   site/assignment
+        new file:   site/assignment.html
+        new file:   site/index.html
+
+
+C:\Users\ajcpa\coursera-test>git commit -m "my first page"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ajcpa@LAPTOP-ESKV35V3.(none)')
+
+C:\Users\ajcpa\coursera-test>git config --global user.email "ajcpa@hotmail.com"
+
+C:\Users\ajcpa\coursera-test>git config --global user.name "AJ"
+
+C:\Users\ajcpa\coursera-test>git remote add origin https://github.com/ajcpa/coursera-test.git
+fatal: remote origin already exists.
+
+C:\Users\ajcpa\coursera-test>vi .git/conf
+'vi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ajcpa\coursera-test>vim .git/config
+'vim' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ajcpa\coursera-test>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ajcpa/coursera-test.git'
+
+C:\Users\ajcpa\coursera-test>rm -rf .git
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ajcpa\coursera-test>Rmdir .git
+The directory is not empty.
+
+C:\Users\ajcpa\coursera-test>Rmdir /S .git
+.git, Are you sure (Y/N)? y
+
+C:\Users\ajcpa\coursera-test>git init
+Initialized empty Git repository in C:/Users/ajcpa/coursera-test/.git/
+
+C:\Users\ajcpa\coursera-test>git remote add origin https://github.com/ajcpa/coursera-test.git
+
+C:\Users\ajcpa\coursera-test>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        _config.yml
+        index.md
+        site/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\ajcpa\coursera-test>git add ,
+fatal: pathspec ',' did not match any files
+
+C:\Users\ajcpa\coursera-test>git add .
+
+C:\Users\ajcpa\coursera-test>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   _config.yml
+        new file:   index.md
+        new file:   site/assignment
+        new file:   site/assignment.html
+        new file:   site/index.html
+        new file:   site/module2-solution v1.html
+        new file:   site/module2-solution v2.html
+        new file:   site/module2-solution v3.html
+        new file:   site/module2-solution v4.html
+        new file:   site/module2-solution v5.html
+        new file:   site/module2-solution.html
+
+
+C:\Users\ajcpa\coursera-test>git commit -m "initial commit"
+[main (root-commit) a105af9] initial commit
+ 11 files changed, 731 insertions(+)
+ create mode 100644 _config.yml
+ create mode 100644 index.md
+ create mode 100644 site/assignment
+ create mode 100644 site/assignment.html
+ create mode 100644 site/index.html
+ create mode 100644 site/module2-solution v1.html
+ create mode 100644 site/module2-solution v2.html
+ create mode 100644 site/module2-solution v3.html
+ create mode 100644 site/module2-solution v4.html
+ create mode 100644 site/module2-solution v5.html
+ create mode 100644 site/module2-solution.html
+
+C:\Users\ajcpa\coursera-test>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ajcpa/coursera-test.git'
+
+C:\Users\ajcpa\coursera-test>git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+C:\Users\ajcpa\coursera-test>git push --set-upstream origin main
+info: please complete authentication in your browser...
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 2.94 KiB | 429.00 KiB/s, done.
+Total 14 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/ajcpa/coursera-test.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+C:\Users\ajcpa\coursera-test>git push
+Everything up-to-date
+
+C:\Users\ajcpa\coursera-test>git add ,
+fatal: pathspec ',' did not match any files
+
+C:\Users\ajcpa\coursera-test>git add .
+
+C:\Users\ajcpa\coursera-test>git commit -m "Update style"
+[main fd80233] Update style
+ 2 files changed, 171 insertions(+), 138 deletions(-)
+ rewrite site/module2-solution.html (97%)
+ create mode 100644 site/styles.css
+
+C:\Users\ajcpa\coursera-test>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.39 KiB | 710.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ajcpa/coursera-test.git
+   a105af9..fd80233  main -> main
+
+C:\Users\ajcpa\coursera-test>

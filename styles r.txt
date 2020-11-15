@@ -1,28 +1,14 @@
 * {
     box-sizing: border-box;
-
   }
 
   h1 {
     margin-bottom: 15px;
-    text-align: center;
   }
 
   span {
       margin: 0px;
       padding: 0px;
-      text-align: right;
-
-
-  }
-  div  {
-      margin: 0px;
-      padding: 0px;
-      text-align: right;
-
-  }
-  p {
-    text-align: left;
   }
 
   /* p {
@@ -43,17 +29,14 @@
   }
   .col {
       background-color: grey;
-      padding: 0px 0px 5px 10px;
-      margin-bottom: 20px;
+      padding: 5px 10px 5px 10px;
+      margin-bottom: 10px;
   }
 
   .box1,
   .box2,
   .box3 {
     border: 1px solid black;
-    left padding: 50px;
-    text-align: center;
-
   }
 
   .box1 {
@@ -76,7 +59,7 @@
       float: left;
       border: 1px solid green;
       background-color: grey;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
     .col-lg-1 {
@@ -96,25 +79,25 @@
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 
-    .col-md-1,
-    .col-md-2,
-    .col-md-3 {
+    .row-md-1,
+    .row-md-2,
+    .row-md-3 {
       float: left;
       border: 1px solid green;
     }
 
-    .col-md-1 {
+    .row-md-1 {
       width: 49%;
       margin-right: 5px;
     }
 
-    .col-md-2 {
+    .row-md-2 {
       width: 49%;
       margin-left: 5px;
     }
 
-    .col-md-3 {
-      width: 99%;
+    .row-md-3 {
+      width: 100%;
     }
 
   }
@@ -122,24 +105,24 @@
   /********** Small devices only **********/
   @media (max-width: 767px) {
 
-    .col-sm-1,
-    .col-sm-2,
-    .col-sm-3 {
+    .row-sm-1,
+    .row-sm-2,
+    .row-sm-3 {
       float: left;
       border: 1px solid green;
       background-color: grey;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
-    .col-sm-1 {
+    .row-sm-1 {
       width: 100%;
     }
 
-    .col-sm-2 {
+    .row-sm-2 {
       width: 100%;
     }
 
-    .col-sm-3 {
+    .row-sm-3 {
       width: 100%;
     }
 
