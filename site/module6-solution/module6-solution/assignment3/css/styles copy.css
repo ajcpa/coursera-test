@@ -38,27 +38,27 @@
   } */
 
   /* Simple Responsive Framework. */
-  .row {
+  /* .row {
     width: 100%;
     text-align: right;
-  }
-  .col {
+  } */
+  /* .col {
       background-color: grey;
       padding: 0px 0px 0px 5px;
       margin-bottom: 20px;
 
-  }
+  } */
 
-  .box1,
+  /* .box1,
   .box2,
   .box3 {
     border: 2px solid black;
     left padding: 50px;
     text-align: right;
 
-  }
+  } */
 
-  .box1 {
+  /* .box1 {
     background-color: salmon;
     
 
@@ -72,11 +72,11 @@
 
   .box3 {
     background-color: gold;
-  }
+  } */
 
   /********** Large devices only **********/
   @media (min-width: 992px) {
-    .col-lg-1,
+    /* .col-lg-1,
     .col-lg-2,
     .col-lg-3 {
       float: left;
@@ -95,14 +95,14 @@
 
     .col-lg-3 {
       width: 30%;
-    }
+    } */
 
   }
 
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 
-    .col-md-1,
+    /* .col-md-1,
     .col-md-2,
     .col-md-3 {
       float: left;
@@ -121,14 +121,14 @@
 
     .col-md-3 {
       width: 99%;
-    }
+    } */
 
   }
 
   /********** Small devices only **********/
   @media (max-width: 767px) {
 
-    .col-sm-1,
+    /* .col-sm-1,
     .col-sm-2,
     .col-sm-3 {
       float: left;
@@ -147,10 +147,63 @@
 
     .col-sm-3 {
       width: 100%;
-    }
+    } */
 
       /* {
       width: 100%;
     } */
 
   }
+
+
+body{
+	font-style: 16px;
+	/* color: #fff; */
+	/* background-color: #61122f; */
+	font-family: 'Oxygen', sans-serif;
+}
+
+	/** Header **/
+ #header-nav {
+ 	background-color: #f6b319;
+ 	border-radius: 0;
+ 	border: 0;
+ 
+}
+
+#logo-img {
+	background: url('../images/restaurant-logo_large.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+
+}
+
+.navbar-brand {
+padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */ 
+font-family: 'Lora', sans-serif;
+color: #557c3e;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+.navbar-brand p { /* Kosher cert */
+  color:  #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span{/* Star -K */
+  vertical-align: middle;
+}

@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: bold;
+
+}
+
+h1 {
+  font-weight: bold;
+  background-color: grey;
+  
+}div  {
+    text-align: right;
+}
+p {
+  text-align: left;
+
+
+}
+.seperator {
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.section {
+  background-color: #fff;
+  padding: 10px 10px 5px 10px;
+}
+
+.section .inner {
+  background-color: grey;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+/* Simple Responsive Framework. */
+.section .inner .title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .aj-menu {
+    display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .aj-menu {
+    display: none;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+
+}
