@@ -20,12 +20,27 @@ p {
 
 }
 .seperator {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 5px solid  #000000;
+}
+.navbar {
+  background color: grey;
+  color: black;
+  font-weight: bold;
+}
+.navbar-header {
+  border-bottom: 5px  #000000;
+  color: #000000;
+  background color: grey;
+  font-weight: bold;
 }
 
 .navbar-brand {
   font-weight: bold;
   font-size: 2em;
+  color:  #000000;
+  
+
+  
 }
 
 .section {
@@ -36,7 +51,7 @@ p {
 .section .inner {
   background-color: grey;
   padding-left: 10px;
-  padding-bottom: 2px;
+  padding-bottom: 20px;
 }
 
 /* Simple Responsive Framework. */
